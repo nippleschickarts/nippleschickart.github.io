@@ -1,0 +1,157 @@
+html {
+  position: relative;
+}
+
+.navbar {
+  background-color: rgb(26, 255, 0);
+}
+
+.navbar-brand {
+  color: red;
+}
+
+body {
+  margin-top: 45px;
+}
+
+.jumbotron {
+  height: 400px;
+  background-image: url("../img/header-bg.png");
+  background-attachment: fixed;
+  background-position: 0 -250px;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.jumbotron img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+}
+
+.jumbotron h1,
+.jumbotron p {
+  text-shadow: 1px 1px 10px rgb(0, 0, 0, 0.5);
+}
+
+hr {
+  width: 50px;
+  border-top: 3px solid #000;
+}
+
+section {
+  min-height: fit-content;
+}
+
+.p-Kiri,
+.p-Kanan {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
+}
+.p-Kanan {
+  transform: translate(50px, 0) rotate(-15deg);
+}
+
+.p-Kiri.pMuncul,
+.p-Kanan.pMuncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.about .intro {
+  width: 400px;
+  border: 3px solid black;
+}
+
+.about hr {
+  width: 50px;
+  border-top: 3px solid #000;
+}
+
+.about .mePhoto {
+  width: 245px;
+  border: 3px solid black;
+}
+
+.contact img {
+  width: 300px;
+}
+
+.contact .sotoi {
+  border-top: #eee;
+}
+
+.gallery {
+  background-image: url("../img/header-bg.png");
+  background-attachment: fixed;
+  background-position: 0 850px;
+  color: rgb(15, 13, 13);
+  overflow: hidden;
+}
+
+.gallery .imperiall {
+  width: 400px;
+  align-content: center;
+}
+
+.gallery .sotoi {
+  border-top: #eee;
+}
+
+.gallery .thumbnail {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: 0.5s;
+}
+
+.gallery .thumbnail.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.contact .woi {
+  background-color: grey;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: rgb(26, 255, 0);
+}
+
+footer a {
+  color: red;
+}
+
+footer a:hover {
+  color: red;
+}
+
+footer h4 {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: red;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+footer p {
+  color: red;
+}
+
+.list-unstyled {
+  color: red;
+}
